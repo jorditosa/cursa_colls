@@ -18,7 +18,7 @@ function Inici() {
         </header>       
       </div>
 
-      <section className="max-w-[1200px] mx-auto grid md:grid-cols-2 justify-items-center gap-10 py-20">
+      <section className="max-w-[1000px] mx-auto grid md:grid-cols-2 justify-items-center gap-10 py-20">
         <div className="mx-5 bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
           <FaListOl size={60} className='w-1/5 text-primary'/>
           <div className="w-4/5 p-5">
@@ -66,7 +66,7 @@ function Inici() {
         
       <section className='relative overflow-x-auto shadow-md bg-primary text-light py-20'>
         <h3 className="text-center text-3xl">Inscripcions</h3>
-        <div className="flex flex-col justify-center items-center max-w-[1200px] mx-auto">
+        <div className="flex flex-col justify-center items-center max-w-[1000px] mx-auto">
           <div className="w-full py-5">
             <div className="overflow-hidden">
               <table className="w-full text-center">
