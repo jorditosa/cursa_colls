@@ -1,4 +1,6 @@
 import Hero from '../assets/hero.jpg'
+import Patrocinadors from './Patrocinadors'
+import Footer from '../components/Footer'
 import { FaListOl, FaRunning, FaPhotoVideo, FaMedal } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
@@ -7,10 +9,12 @@ function Inici() {
   return (
     <>
       <div className='h-screen'>
-        <header className="w-full h-screen bg-fixed flex flex-col items-center justify-center font-Lato text-light" style={{backgroundImage: `url(${Hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-          <h1 className='text-6xl mt-5 rounded-b-lg'>La Cursa dels Colls</h1>
-          <span className='text-3xl mt-5'>9a Edició</span>
-          <h3 className='text-3xl mt-5'>09 d'abril del <span>2023</span></h3>
+        <header className="w-full h-screen bg-local flex flex-col items-center justify-center font-Lato" style={{backgroundImage: `url(${Hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+          <div className='w-full text-center font-bold text-light py-10 mt-20'>
+            <h1 className='w-full text-4xl md:text-8xl mt-5 rounded-b-lg'>La Cursa dels Colls</h1>
+            <span className='block text-xl md:text-3xl mt-5'>9a Edició</span>
+            <h3 className='text-xl md:text-3xl mt-5'>09 d'abril del <span>2023</span></h3>
+          </div>
         </header>       
       </div>
 
@@ -58,7 +62,6 @@ function Inici() {
             </p>
           </div>
         </div>
-
       </section>
         
       <section className='relative overflow-x-auto shadow-md bg-primary text-light py-20'>
@@ -69,10 +72,10 @@ function Inici() {
               <table className="w-full text-center">
                 <thead className="border-b bg-light text-primary">
                   <tr>
-                    <th scope="col" className="text-3xl font-medium px-6 py-4">
+                    <th scope="col" className="text-2xl font-medium px-6 py-4">
                       # la Curta
                     </th>
-                    <th scope="col" className="text-3xl font-medium px-6 py-4">
+                    <th scope="col" className="text-2xl font-medium px-6 py-4">
                     # la Llarga
                     </th>
                   </tr>
@@ -87,7 +90,7 @@ function Inici() {
                     </td>
                   </tr>
                   <tr className="bg-white border-b">
-                    <td colspan="2" className="text-xl px-6 py-4 text-center">
+                    <td colSpan="2" className="text-xl px-6 py-4 text-center">
                       Periode d'inscripcions: Del 01 de febrer al 6 d'abril del 2023
                     </td>
                   </tr>
@@ -97,6 +100,10 @@ function Inici() {
           </div>
       </div>
       </section>
+
+      <Patrocinadors />
+
+      <Footer />
     </>
   )
 }

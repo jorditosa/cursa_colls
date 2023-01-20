@@ -2,12 +2,13 @@ import { Outlet, Link } from 'react-router-dom';
 import  logoCursa  from '../assets/logo-bgwhite.png'
 import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa'
 
+
 // Styled components
 
 function Layout() {
   return (
     <div className='w-full'>
-      <nav className='fixed w-full h-20 bg-light flex justify-between items-center px-20 text-dark font-Lato shadow-lg'>
+      <nav className='w-screen fixed z-10 h-auto py-2 md:px-20 bg-light flex flex-col md:flex-row justify-between items-center text-dark font-Lato shadow-lg'>
         <Link to='/'>
           <img className='w-[100px] rounded-md' src={logoCursa} alt="" />
         </Link>
