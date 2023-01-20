@@ -13,7 +13,7 @@ module.exports = {
       light: '#ffffff',
     },
     fontFamily: {
-      'Lato': ['Lato', 'sans-serif'],
+      'Poppins': ['Poppins', 'sans-serif'],
     },
   },
   plugins: [],

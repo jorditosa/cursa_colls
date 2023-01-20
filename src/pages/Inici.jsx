@@ -10,7 +10,7 @@ function Inici() {
   return (
     <>
       <div className='h-screen'>
-        <header className="w-full h-screen bg-fixed pt-12 flex flex-col items-start justify-start font-Lato" style={{backgroundImage: `url(${Hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top'}}>
+        <header className="w-full h-screen bg-fixed pt-12 flex flex-col items-start justify-start font-Poppins" style={{backgroundImage: `url(${Hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top'}}>
           <div className='w-full h-auto text-center font-bold text-dark py-5 md:py-1 bg-gradient-to-r from-light/75 to-secondary/75'>
             <h1 className='w-full text-4xl md:text-8xl mt-5 rounded-b-lg'>La Cursa dels Colls &copy;</h1>
             <span className='block text-2xl md:text-4xl mt-5'>9a Edició</span>
