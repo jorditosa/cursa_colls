@@ -4,8 +4,8 @@ function Reglament() {
   return (
 
     <>
-      <main className="container py-2 pt-96 md:pt-24 font-Lato">
-        <h2 className="text-center py-5 md:py-10 text-3xl">
+      <main className="pt-20 py-2 md:pt-24 font-Lato">
+        <h2 className="text-center text-dark py-5 text-4xl bg-gradient-to-r from-light/5 to-secondary/75">
           Reglament oficial de la Cursa dels Colls, edició 2023
         </h2>
   

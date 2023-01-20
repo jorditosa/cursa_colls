@@ -2,6 +2,7 @@ import Hero from '../assets/hero.jpg'
 import Patrocinadors from './Patrocinadors'
 import Footer from '../components/Footer'
 import { FaListOl, FaRunning, FaPhotoVideo, FaMedal } from 'react-icons/fa'
+import  logoCursa  from '../assets/logo-bgwhite.png'
 import { Link } from 'react-router-dom'
 
 function Inici() {
@@ -9,20 +10,20 @@ function Inici() {
   return (
     <>
       <div className='h-screen'>
-        <header className="w-full h-screen bg-local flex flex-col items-center justify-center font-Lato" style={{backgroundImage: `url(${Hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-          <div className='w-full text-center font-bold text-light py-10 mt-20'>
-            <h1 className='w-full text-4xl md:text-8xl mt-5 rounded-b-lg'>La Cursa dels Colls</h1>
-            <span className='block text-xl md:text-3xl mt-5'>9a Edició</span>
+        <header className="w-full h-screen bg-fixed pt-12 flex flex-col items-start justify-start font-Lato" style={{backgroundImage: `url(${Hero})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top'}}>
+          <div className='w-full h-auto text-center font-bold text-dark py-5 md:py-1 bg-gradient-to-r from-light/75 to-secondary/75'>
+            <h1 className='w-full text-4xl md:text-8xl mt-5 rounded-b-lg'>La Cursa dels Colls &copy;</h1>
+            <span className='block text-2xl md:text-4xl mt-5'>9a Edició</span>
             <h3 className='text-xl md:text-3xl mt-5'>09 d'abril del <span>2023</span></h3>
           </div>
         </header>       
       </div>
 
-      <section className="max-w-[1000px] mx-auto grid md:grid-cols-2 justify-items-center gap-10 py-20">
-        <div className="mx-5 bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
+      <section className="max-w-[1000px] mx-auto grid md:grid-cols-2 justify-items-center gap-5 py-20">
+        <div className="bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
           <FaListOl size={60} className='w-1/5 text-primary'/>
           <div className="w-4/5 p-5">
-            <h3 className="text-dark text-3xl pb-2">
+            <h3 className="text-center md:text-start text-dark text-3xl pb-2">
               Classificacions
             </h3>
             <p className="text-dark font-medium text-lg">Desde aquest enllaç podeu accedir directament a <a target='_blank' className='text-primary' href="">consulta les classificacions</a> oficials de les últimes edicions. 
@@ -30,10 +31,10 @@ function Inici() {
           </div>
         </div>
 
-        <div className="mx-5 bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
+        <div className="bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
           <FaRunning size={60} className='w-1/5 text-primary'/>
           <div className="w-4/5 p-5">
-            <h3 className="text-dark text-3xl pb-2">
+            <h3 className="text-center md:text-start text-dark text-3xl pb-2">
               La Cursa
             </h3>
             <p className="text-dark font-medium text-lg">Us deixem una breu explicació de que és la Cursa dels Colls i com vàrem començar a liar-nos per preparar-vos una marevallosa prova esportiva al nostre entorn dels Colls Mirapleix. 
@@ -41,10 +42,10 @@ function Inici() {
           </div>
         </div>
 
-        <div className="mx-5 bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
+        <div className="bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
           <FaPhotoVideo size={60} className='w-1/5 text-primary'/>
           <div className="w-4/5 p-5">
-            <h3 className="text-dark text-3xl pb-2">
+            <h3 className="text-center md:text-start text-dark text-3xl pb-2">
               Fotogaleria
             </h3>
             <p className="text-dark font-medium text-lg">No pot faltar la secció que tot bon trail runner necessita tenir, i son totes les fotos on segurament surtiu estupendos/as i amb cara de anar super bé!.. 
@@ -52,10 +53,10 @@ function Inici() {
           </div>
         </div>
 
-        <div className="mx-5 bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
+        <div className="bg-white bg-light shadow-lg shadow-primary/50 rounded-lg flex flex-col md:flex-row items-center">
           <FaMedal size={60} className='w-1/5 text-primary'/>
           <div className="w-4/5 p-5">
-            <h3 className="text-dark text-3xl pb-2">
+            <h3 className="text-center md:text-start text-dark text-3xl pb-2">
               Patrocinadors/es
             </h3>
             <p className="text-dark font-medium text-lg">I especial menció als nostres patrocinadors i col·laboradors, sense ells no podrieu gaudir d'una autèntica Cursa en un paratge natural com els dels Colls Miralpeix. 

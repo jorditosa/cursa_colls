@@ -1,34 +1,77 @@
-import { useState } from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { useState, useEffect } from "react";
+import {
+  Navbar,
+  MobileNav,
+  Typography,
+  Button,
+  IconButton,
+} from "@material-tailwind/react";
+import { Outlet, Link } from "react-router-dom";
 import  logoCursa  from '../assets/logo-bgwhite.png'
 import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa'
-
-
-// Styled components
-
-function Layout() {
-  
-  return (
-    <div className='w-full'>
-      <nav className='w-screen fixed z-10 h-auto py-2 md:px-20 bg-light flex flex-col md:flex-row justify-between items-center gap-5 text-dark font-Lato shadow-lg'>
-        <Link to='/'>
-          <img className='w-[100px] rounded-md' src={logoCursa} alt="" />
-        </Link>
+import { MenuOutline, CloseOutline } from '@styled-icons/evaicons-outline'
+ 
+export default function Layout() {
+  const [openNav, setOpenNav] = useState(false);
+ 
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => window.innerWidth >= 960 && setOpenNav(false)
+    );
+  }, []);
+ 
+  const navList = (
+    <ul className="w-screen h-full md:px-20 flex flex-col md:flex-row items-center justify-between gap-4">
+        <Link className='text-lg font-bold block text-primary hover:text-secondary' to='/'>Inici</Link>
         <Link className='text-lg font-bold block text-primary hover:text-secondary' to='/voluntariat'>Voluntaris</Link>
         <Link className='text-lg font-bold block text-primary hover:text-secondary' to='/recorreguts'>Recorreguts</Link>
         <Link className='text-lg font-bold block text-primary hover:text-secondary' to='/reglament'>Reglament</Link>
         <Link className='text-lg font-bold block text-primary hover:text-secondary' to='/infoutil'>Info Útil</Link>
         <a className='text-lg font-bold block text-primary hover:text-secondary' target='_blank' href='https://www.sportsform.net/cursacolls/2022/'>Inscriu-te</a>
         <div className='w-1/2 md:w-1/6 flex justify-around'>
-          <FaInstagram size={30} className='cursor-pointer text-primary hover:text-secondary'/>
-          <FaFacebook size={30} className='cursor-pointer text-primary hover:text-secondary' />
-          <FaYoutube size={30} className='cursor-pointer text-primary hover:text-secondary' />
-          <FaEnvelope size={30} className='cursor-pointer text-primary hover:text-secondary' />
+          <a target='_blank' href='https://www.instagram.com/cursadelscolls/?hl=es'>
+            <FaInstagram size={30} className='cursor-pointer text-primary hover:text-secondary' />
+          </a>
+          <a target='_blank' href='https://es-es.facebook.com/cursadelscolls/'>
+            <FaFacebook size={30} className='cursor-pointer text-primary hover:text-secondary' />
+          </a>
+          <a target='_blank' href='https://www.youtube.com/channel/UC6hBtUMOnOnqhnMSyvs8q1Q'>
+            <FaYoutube size={30} className='cursor-pointer text-primary hover:text-secondary' />
+          </a>
+          <a target='_blank' href='mailto:cursadelscolls@gmail.com'>
+            <FaEnvelope size={30} className='cursor-pointer text-primary hover:text-secondary' />
+          </a>
         </div>
+    </ul>
+  );
+ 
+  return (
+    <>
+      <nav className="w-screen fixed bg-light z-10 py-2 shadow-lg shadow-secondary">
+        <div className="w-full px-4 flex items-center justify-between">
+          <div className="hidden lg:block">{navList}</div>
+          <Link to='/'>
+            <img className='w-[100px] rounded-md' src={logoCursa} alt="" />
+          </Link>
+          <IconButton
+            variant="text"
+            className="text-primary"
+            ripple={false}
+            onClick={() => setOpenNav(!openNav)}
+          >
+            {openNav ? (
+              <CloseOutline size={50} />
+            ) : (
+              <MenuOutline size={50} />
+            )}
+          </IconButton>
+        </div>
+        <MobileNav open={openNav}>
+          {navList}
+        </MobileNav>
       </nav>
       <Outlet />
-    </div>
-  )
+    </>
+  );
 }
-
-export default Layout

@@ -13,8 +13,8 @@ function Footer() {
               <FaEnvelope size={30} className='cursor-pointer text-light hover:text-secondary' />
             </div>
         </div>
-        <div className='w-full md:w-[1200px] mx-auto flex flex-col items-center justify-between md:flex-row border-t mt-5 py-3 text-xl'>
-            <h2>La Cursa dels Colls &copy;</h2>
+        <div className='w-full md:w-[1000px] mx-auto flex flex-col items-center justify-between md:flex-row border-t mt-5 py-3 text-xl'>
+            <h2>La Cursa dels Colls &copy; { new Date().getFullYear() }</h2>
             <p>Política privacitat</p>
             <p>Política cookies</p>
         </div>
@@ -23,3 +23,4 @@ function Footer() {
 }
 
 export default Footer
+
