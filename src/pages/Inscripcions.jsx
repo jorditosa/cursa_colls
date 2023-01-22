@@ -29,7 +29,7 @@ function Inscripcions() {
                   </tr>
                   <tr className="bg-white border-b">
                     <td colSpan="2" className="text-xl px-6 py-4 text-center">
-                      Periode d'inscripcions: Del 01 de febrer al 6 d'abril del 2023
+                      Periode d'inscripcions: Del 01 de febrer al 30 de març del 2023
                     </td>
                   </tr>
                 </tbody>

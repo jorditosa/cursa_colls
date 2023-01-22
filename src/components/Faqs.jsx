@@ -41,8 +41,8 @@ export default function Faqs() {
         </AccordionHeader>
         <AccordionBody>
           <ul>
-            <li>Dissabte 08, al Molí de Mar de 17:30h a 20h.</li>
-            <li>Diumenge 09, al Molí de Mar de 8h fins les 09h.</li>
+            <li>Dissabte 01, al Molí de Mar de 17:30h a 20h.</li>
+            <li>Diumenge 02, al Molí de Mar de 8h fins les 09h.</li>
           </ul>
         </AccordionBody>
       </Accordion>

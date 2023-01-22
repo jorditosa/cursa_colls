@@ -18,7 +18,7 @@ function Reglament() {
               dorsal, que podreu descarregar en aquest enllaç <a href="src/img/Autoritzacio_menors_colls.pdf" download>"autorització menors".</a></b>
           </li>
           <li className="py-2">
-            &nbsp; 2. La cursa es disputarà el <b className="text-lg md:text-2xl">diumenge dia 09 d’abril de 2023.</b>
+            &nbsp; 2. La cursa es disputarà el <b className="text-lg md:text-2xl">diumenge dia 02 d’abril de 2023.</b>
           </li>
           <li className="py-2">
             &nbsp; 3. La cursa transcorre per l'espai natural protegit <b>dels Colls i Miralpeix.</b>
