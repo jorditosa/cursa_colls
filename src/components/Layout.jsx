@@ -51,7 +51,7 @@ export default function Layout() {
           <Link to='/'>
             <img className='w-[100px] rounded-md' src={logoCursa} alt="Logo Cursa" />
           </Link>
-          <IconButton
+          <button
             variant="text"
             className="text-primary block"
             ripple={false}
@@ -62,7 +62,7 @@ export default function Layout() {
             ) : (
               <MenuOutline size={70} />
             )}
-          </IconButton>
+          </button>
         </div>
         <MobileNav open={openNav}>
           {navList}
