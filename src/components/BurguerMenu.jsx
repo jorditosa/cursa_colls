@@ -13,7 +13,7 @@ function BurguerMenu({clicked, handleClick}) {
 
   return (
     <div 
-    className='block md:hidden z-10'
+    className='block lg:hidden z-10'
     onClick={handleClick}
     >
       {clicked ? <CloseBurguer size={50} /> : <IconBurguer size={50} />}

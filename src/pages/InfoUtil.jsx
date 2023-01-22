@@ -8,7 +8,7 @@ function InfoUtil() {
           <h2 className="text-center text-dark py-5 text-4xl bg-gradient-to-r from-light/5 to-secondary/75">
             Faq's ( preguntes freqüents )
           </h2>
-        <div className="md:max-w-[1000px] mx-auto font-Poppins p-5 text-xl border-b-primary">
+        <div className="md:max-w-[1000px] mx-auto font-Poppins p-3 text-lg border-b-primary">
           <Faqs />
         </div>
       </section>

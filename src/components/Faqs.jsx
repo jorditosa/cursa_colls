@@ -4,7 +4,6 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { ChevronDown } from '@styled-icons/boxicons-solid'
  
 export default function Faqs() {
   const [open, setOpen] = useState(1);
@@ -21,8 +20,7 @@ export default function Faqs() {
   return (
     <Fragment>
       <Accordion open={open === 1} animate={customAnimation}>
-        <AccordionHeader onClick={() => handleOpen(1)} className='flex justify-between'>
-          <ChevronDown size={40} />
+        <AccordionHeader onClick={() => handleOpen(1)}>
           Hi ha servei de guarda-roba?
         </AccordionHeader>
         <AccordionBody>
@@ -31,7 +29,6 @@ export default function Faqs() {
       </Accordion>
       <Accordion open={open === 2} animate={customAnimation}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-        <ChevronDown size={40} />
           Hi haurà pàrking?
         </AccordionHeader>
         <AccordionBody>
@@ -40,11 +37,10 @@ export default function Faqs() {
       </Accordion>
       <Accordion open={open === 3} animate={customAnimation}>
         <AccordionHeader onClick={() => handleOpen(3)}>
-        <ChevronDown size={40} />
           A quina hora és la recollida de Dorsals?
         </AccordionHeader>
         <AccordionBody>
-          <ul className="text-center">
+          <ul>
             <li>Dissabte 08, al Molí de Mar de 17:30h a 20h.</li>
             <li>Diumenge 09, al Molí de Mar de 8h fins les 09h.</li>
           </ul>
@@ -52,7 +48,6 @@ export default function Faqs() {
       </Accordion>
       <Accordion open={open === 4} animate={customAnimation}>
         <AccordionHeader onClick={() => handleOpen(4)}>
-        <ChevronDown size={40} />
           Hi ha servei de dutxes?
         </AccordionHeader>
         <AccordionBody>
@@ -61,7 +56,6 @@ export default function Faqs() {
       </Accordion>
       <Accordion open={open === 5} animate={customAnimation}>
         <AccordionHeader onClick={() => handleOpen(5)}>
-        <ChevronDown size={40} />
           Tindré jalar al acabar?
         </AccordionHeader>
         <AccordionBody>
