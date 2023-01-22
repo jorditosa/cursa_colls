@@ -14,6 +14,7 @@ import LogoEdel from '../assets/logos/logo_edelweiss.png'
 import LogoPintallar from '../assets/logos/logo_pintallar.jpg'
 import LogoCalserra from '../assets/logos/logo_calserra.jpeg'
 import LogoMiro from '../assets/logos/logo_mirografic.jpg'
+import LogoCursa from '../assets/logo-bgwhite.png'
 
 function Patrocinadors() {
   return (
@@ -21,10 +22,16 @@ function Patrocinadors() {
         <h3 className='text-center text-4xl'>Organitzada per</h3>
         <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
             <div className="flex flex-wrap">
-                <div className="flex mx-auto w-full md:w-1/2">
+                <div className="flex mx-auto w-full md:w-1/4">
                     <div className="w-full p-1 md:p-2">
-                        <img alt="gallery" className="block object-contain w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
+                        <img alt="gallery" className="block object-contain w-full h-full shadow-md shadow-primary/75 p-10 md:p-2 rounded-lg"
                         src={LogoDeporunners} />
+                    </div>
+                </div>
+                <div className="flex mx-auto w-full md:w-1/4">
+                    <div className="w-full p-1 md:p-2">
+                        <img alt="gallery" className="block object-contain w-full h-full shadow-md shadow-primary/75 p-10 rounded-lg"
+                        src={LogoCursa} />
                     </div>
                 </div>
                 <h3 className='text-center text-4xl w-full py-12'>Gràcies per fer-ho possible</h3>

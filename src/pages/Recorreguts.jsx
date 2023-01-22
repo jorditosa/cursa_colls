@@ -1,7 +1,14 @@
+import Footer from "../components/Footer"
 
 function recorreguts() {
   return (
-    <div>recorreguts</div>
+    <>
+      <div>
+
+      </div>
+
+      <Footer />
+    </>
   )
 }
 
