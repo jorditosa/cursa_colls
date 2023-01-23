@@ -30,13 +30,13 @@ function Voluntariat() {
 
         <div className="w-full lg:max-w-[1000px] mx-auto p-3 pt-5 font-Poppins">
           <p className="py-2">
-          Com sempre, sense la familia de voluntaris un esdeveniment així seria impossible dur-lo a terme.
+          Com sempre, sense la familia de voluntaris, organitzar un esdeveniment així seria impossible fer-ho una realitat. Avui ajudem aqui per demà anar a córrer allà :).
+          </p>
+          <p>
+          Tothom qe ha vingut a donar-nos un cop de mà alguna vegada ha sortit ben content, ja sigui aportant el seu granet de sorra a la zona del Molí de Mar, pel recorregut, avituallaments, guarda-roba, bbq o a la barra mateix. Tot i que el recorregut el marquem a consciència, sempre necessitem ajuda per tenir controlats els punts conflictius i poder gaudir entre tots/es d'una competició perfecte.
           </p>
           <p className="py-2">
-          És per això, que si us animeu a ajudar-nos en aquesta propera edició, us facilitem un link cap a un formulari perque ens especifiqueu la vostre disponiblitat, nom i telèfon per contactar-vos.
-          </p>
-          <p className="py-2">
-          Ja sabeu que us agraïm mil l'ajuda, i és per això que després de la feina feta tindreu un bon esmorzar i un petit obsequi.
+          És per això, que us volem animar a ajudar-nos amb la vostre col·laboració, ho diem honestament que ens ho passem igual de bé organitzant que corrent! i a més a més...us paguem un bon esmorzar amb beguda inclosa! i us donarme un petit obsequi.
           </p>
         </div>
 
