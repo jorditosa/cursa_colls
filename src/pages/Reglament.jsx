@@ -1,15 +1,16 @@
 import Footer from "../components/Footer"
+import Title from "../components/Title"
 
 function Reglament() {
   return (
 
     <>
       <main className="pt-20 py-2 md:pt-24 font-Poppins">
-        <h2 className="text-center text-dark py-5 text-4xl bg-gradient-to-r from-light/5 to-secondary/75">
+        <Title>
           Reglament oficial de la Cursa dels Colls, edició 2023
-        </h2>
+        </Title>
   
-        <ol className="w-full md:max-w-[1000px] mx-auto text-md md:text-xl py-5 md:py-10 px-3">
+        <ol className="w-full md:max-w-[1000px] mx-auto text-md lg:text-lg py-5 md:py-10 px-3">
           <li className="py-2">
             &nbsp; 1. La cursa està oberta a totes les persones que vulguin
             participar-hi. El mínim d’edat per participar a la prova Curta és de 14 anys, i per la Llarga 16 anys.

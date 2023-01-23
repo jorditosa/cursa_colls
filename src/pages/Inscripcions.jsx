@@ -1,14 +1,15 @@
 import React from 'react'
+import Title from '../components/Title'
 
 function Inscripcions() {
   return (
-    <section className='relative overflow-x-auto shadow-md bg-gradient-to-r from-dark/75 to-secondary text-light py-20'>
-        <h3 className="text-center text-3xl">Inscripcions</h3>
+    <section className='relative overflow-x-auto shadow-md bg-gradient-to-l from-light/25 to-secondary text-dark pt-10 pb-20'>
+        <Title>Inscripcions</Title>
         <div className="flex flex-col justify-center items-center max-w-[1000px] mx-auto">
           <div className="w-full py-5">
             <div className="overflow-hidden lg:rounded-t-lg">
               <table className="w-full text-center">
-                <thead className="border-b bg-light text-primary">
+                <thead className="bg-light text-primary">
                   <tr>
                     <th scope="col" className="text-2xl font-medium px-6 py-4">
                       # la Curta
@@ -19,7 +20,7 @@ function Inscripcions() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="bg-white border-b">
+                  <tr className="bg-white border-b border-light">
                     <td className="text-3xl font-medium px-6 py-4">
                       12 €
                     </td>
@@ -27,9 +28,10 @@ function Inscripcions() {
                       15 €
                     </td>
                   </tr>
-                  <tr className="bg-white border-b">
-                    <td colSpan="2" className="text-xl px-6 py-4 text-center">
-                      Periode d'inscripcions: Del 01 de febrer al 30 de març del 2023
+                  <tr className="bg-white border-b border-light">
+                    <td colSpan="2" className="text-2xl px-6 py-4 text-center">
+                      Periode d'inscripcions:<br/>
+                      Del 01 de febrer al 30 de març del 2023
                     </td>
                   </tr>
                 </tbody>

@@ -2,6 +2,7 @@ import { useState } from "react"
 import Footer from "../components/Footer"
 import VoluntarisImg from '../assets/voluntaris.jpg'
 import VoluntarisImgStaff from '../assets/voluntaris_staff.jpg'
+import Title from "../components/Title";
 
 function Voluntariat() {
 
@@ -23,11 +24,11 @@ function Voluntariat() {
   return (
     <>
       <section className="pt-20 md:pt-24 font-Poppins">
-        <h2 className="text-center text-dark py-5 text-4xl bg-gradient-to-r from-light/5 to-secondary/75">
-          Vols ser voluntari/a de la Cursa dels Colls?
-        </h2>
+        <Title>
+        La grandesa de la Cursa, <br/> els voluntaris/es  
+        </Title>
 
-        <div className="w-full lg:max-w-[1000px] mx-auto p-2 pt-5 font-Poppins">
+        <div className="w-full lg:max-w-[1000px] mx-auto p-3 pt-5 font-Poppins">
           <p className="py-2">
           Com sempre, sense la familia de voluntaris un esdeveniment així seria impossible dur-lo a terme.
           </p>
@@ -39,13 +40,13 @@ function Voluntariat() {
           </p>
         </div>
 
-        <h2 className="mt-10 text-center text-dark p-5 text-2xl bg-gradient-to-r from-light/5 to-secondary/75">
+        <Title>
           Fes-te voluntari i vine a compartir i gaudir d'una jornada perfecte!
-        </h2>
+        </Title>
         <form 
         action="https://getform.io/f/8912888a-c33d-448c-8ab1-5ccc3c669793"
         method="POST"
-        className="flex flex-col w-full lg:w-1/2 mx-auto py-5"
+        className="flex flex-col w-full lg:w-1/2 mx-auto px-3 py-10"
         onSubmit={handleSubmit}
         >
           {error && (
@@ -81,13 +82,13 @@ function Voluntariat() {
             name="validate" 
             id="validate"
             />
-            <label htmlFor="validate" className="pl-5">
-              Carinyu meu, digam que no ets un robot
+            <label htmlFor="validate" className="text-xs pl-5">
+              Carinyu meu, digam que tens sentiments i no ets un robot.
             </label>
           </div>
           <button 
           type="submit"
-          className="my-5 bg-gradient-to-r from-dark to-secondary hover:bg-gradient-to-l hover:from-dark hover:to-secondary transition-all duration-300 text-light text-xl first-letter: block px-8 py-3 w-full font-semibold rounded-md"
+          className="my-5 bg-primary border-2 border-secondary text-light text-xl first-letter: block px-8 py-3 w-full font-semibold rounded-md"
           disabled={error && 'true'}
           >
             M'apunto!

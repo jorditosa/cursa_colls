@@ -8,6 +8,7 @@ import Voluntariat from './pages/Voluntariat'
 import Recorreguts from './pages/Recorreguts'
 import Reglament from './pages/Reglament'
 import InfoUtil from './pages/InfoUtil'
+import PoliticaPriv from './pages/PoliticaPriv'
 
 const router = createBrowserRouter([
   {
@@ -34,9 +35,16 @@ const router = createBrowserRouter([
         path: '/infoutil',
         element: <InfoUtil />
       },
+      {
+        path: '/politicapriv',
+        element: <PoliticaPriv />
+      },  
     ]
   },
-  
+  {
+    path: '/politicapriv',
+    element: <PoliticaPriv />
+  },  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
