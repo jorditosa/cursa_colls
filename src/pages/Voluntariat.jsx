@@ -1,22 +1,26 @@
 import { useState } from "react"
+import { Form } from "react-router-dom"
 import Footer from "../components/Footer"
 import VoluntarisImg from '../assets/voluntaris.jpg'
 import VoluntarisImgStaff from '../assets/voluntaris_staff.jpg'
 import Title from "../components/Title";
+import Error from "../components/Error";
+
 
 function Voluntariat() {
 
+  
   const [nombre, setNombre ] = useState('');
   const [email, setEmail ] = useState('');
   const [telefono, setTelefono ] = useState('');
-
-  const [ error, setError ] = useState(false)
-
+  const [ error , setError ] = useState(false);
+  
   const handleSubmit= (e) => {
 
     if([nombre, email, telefono].includes('')) {
-      setError(true)
-      return
+      e.preventDefault()
+      setError(true);
+      return error;
     }
     setError(false)
   }
@@ -43,15 +47,14 @@ function Voluntariat() {
         <Title>
           Fes-te voluntari i vine a compartir i gaudir d'una jornada perfecte!
         </Title>
+
+        {error && <Error>Tots els camps són obligatoris</Error>}
         <form 
-        action="https://getform.io/f/8912888a-c33d-448c-8ab1-5ccc3c669793"
         method="POST"
+        action="https://getform.io/f/8912888a-c33d-448c-8ab1-5ccc3c669793"
         className="flex flex-col w-full lg:w-1/2 mx-auto px-3 py-10"
         onSubmit={handleSubmit}
         >
-          {error && (
-            <div><p className="text-error text-center text-2xl py-2">Tots els camps son obligatoris</p></div>
-          ) }
           <input 
           type="text" 
           name="name" 
@@ -76,20 +79,11 @@ function Voluntariat() {
           className="p-2 my-5 bg-transparent border-4 border-secondary rounded-md focus:outline-none" 
           onChange={(e) => setTelefono(e.target.value)}
           />
-          <div className="my-5">
-            <input 
-            type="checkbox" 
-            name="validate" 
-            id="validate"
-            />
-            <label htmlFor="validate" className="text-xs pl-5">
-              Carinyu meu, digam que tens sentiments i no ets un robot.
-            </label>
-          </div>
+          <input name="_gotcha" className="hidden"/>
+          
           <button 
           type="submit"
           className="my-5 bg-primary border-2 border-secondary text-light text-xl first-letter: block px-8 py-3 w-full font-semibold rounded-md"
-          disabled={error && 'true'}
           >
             M'apunto!
           </button>

@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/voluntariat',
-        element: <Voluntariat />
+        element: <Voluntariat />,
       },
       {
         path: '/recorreguts',

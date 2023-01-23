@@ -87,7 +87,6 @@ export default function Layout() {
           <button
             variant="text"
             className="text-primary block"
-            ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (

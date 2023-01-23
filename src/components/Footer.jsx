@@ -13,7 +13,7 @@ function Footer() {
                     <div className="items-center mx-auto mb-3 space-y-4 w-full md:w-1/2 sm:flex sm:space-y-0">
                         <div className="relative w-full">
                             <label htmlFor="email" className="hidden mb-2 text-sm font-medium dark:text-gray-300">El teu email</label>
-                            <input className="block text-dark p-3 pl-12 w-full text-sm bg-gray-50 rounded-lg border-2 border-secondary sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Introdueix el teu email" type="email" id="email" required="true" />
+                            <input className="block text-dark p-3 pl-12 w-full text-sm bg-gray-50 rounded-lg border-2 border-secondary sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Introdueix el teu email" type="email" id="email"/>
                         </div>
                         <div>
                             <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-light rounded-lg cursor-pointer bg-primary border-2 border-secondary sm:rounded-none sm:rounded-r-lg hover:bg-primary-800">Enviar</button>
