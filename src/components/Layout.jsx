@@ -20,12 +20,42 @@ export default function Layout() {
  
   const navList = (
     <ul className="w-screen h-full lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-3">
-        <Link className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' to='/'>Inici</Link>
-        <Link className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' to='/voluntariat'>Voluntaris</Link>
-        <Link className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' to='/recorreguts'>Recorreguts</Link>
-        <Link className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' to='/reglament'>Reglament</Link>
-        <Link className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' to='/infoutil'>Info Útil</Link>
-        <a className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' target='_blank' href='https://www.sportsform.net/cursacolls/2022/'>Inscriu-te</a>
+        <Link 
+        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        to='/'
+        onClick={() => setOpenNav(false)}
+        >Inici
+        </Link>
+        <Link 
+        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        to='/voluntariat'
+        onClick={() => setOpenNav(false)}
+        >Voluntaris
+        </Link>
+        <Link 
+        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        to='/recorreguts'
+        onClick={() => setOpenNav(false)}
+        >Recorreguts
+        </Link>
+        <Link 
+        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        to='/reglament'
+        onClick={() => setOpenNav(false)}
+        >Reglament
+        </Link>
+        <Link 
+        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        to='/infoutil'
+        onClick={() => setOpenNav(false)}
+        >Info Útil
+        </Link>
+        <a 
+        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        target='_blank' 
+        href='https://www.sportsform.net/cursacolls/2022/'
+        onClick={() => setOpenNav(false)}
+        >Inscriu-te</a>
         <div className='w-1/2 lg:w-1/6 flex justify-around'>
           <a target='_blank' href='https://www.instagram.com/cursadelscolls/?hl=es'>
             <FaInstagram size={30} className='cursor-pointer text-primary hover:text-secondary' />
@@ -48,7 +78,10 @@ export default function Layout() {
       <nav className="w-screen fixed bg-light z-10 py-2 lg:py-0 shadow-lg shadow-secondary">
         <div className="w-full flex items-center justify-between px-5">
           <div className="hidden lg:block">{navList}</div>
-          <Link to='/'>
+          <Link 
+          to='/'
+          onClick={() => setOpenNav(!openNav)}
+          >
             <img className='w-[100px] rounded-md' src={logoCursa} alt="Logo Cursa" />
           </Link>
           <button
