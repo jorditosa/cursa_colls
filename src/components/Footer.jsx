@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import  logoCursa  from '../assets/logo-bgwhite.png'
+import logoCursa from '../assets/logos/logo_cursa.png'
 import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa'
 
 function Footer() {

@@ -1,7 +1,9 @@
 import LogoDeporunners from '../assets/logos/L_deporunners.png'
+import LogoCursa from '../assets/logos/logo_cursa.png'
 import LogoAjuntament from '../assets/logos/logo_ajuntament.jpg'
 import LogoAmetller from '../assets/logos/logo_ametller.png'
 import LogoTempsRec from '../assets/logos/logo_temps_recovery.jpg'
+import LogoInnova from '../assets/logos/logo_innova.png'
 import LogoAqua from '../assets/logos/logo_aqua.jpg'
 import LogoRoca from '../assets/logos/logo_gruporoca.jpg'
 import LogoFisio from '../assets/logos/logo_fisiolab.jpg'
@@ -14,8 +16,8 @@ import LogoEdel from '../assets/logos/logo_edelweiss.png'
 import LogoPintallar from '../assets/logos/logo_pintallar.jpg'
 import LogoCalserra from '../assets/logos/logo_calserra.jpeg'
 import LogoMiro from '../assets/logos/logo_mirografic.jpg'
-import LogoCursa from '../assets/logo-bgwhite.png'
 import LogoManantial from '../assets/logos/logo_manantial_salud.png'
+import LogoEspai from '../assets/logos/logo_espaicarme.jpg'
 
 function Patrocinadors() {
   return (
@@ -51,6 +53,12 @@ function Patrocinadors() {
                 <div className="flex flex-wrap w-1/2 md:w-1/4">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
+                        src={LogoEspai}/>
+                    </div>
+                </div>
+                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                    <div className="w-full md:p-2">
+                    <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoEdel}/>
                     </div>
                 </div>
@@ -58,6 +66,12 @@ function Patrocinadors() {
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoTempsRec}/>
+                    </div>
+                </div>
+                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                    <div className="w-full md:p-2">
+                    <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
+                        src={LogoInnova}/>
                     </div>
                 </div>
                 <div className="flex flex-wrap w-1/2 md:w-1/4">
