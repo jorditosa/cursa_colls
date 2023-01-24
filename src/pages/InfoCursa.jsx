@@ -8,10 +8,10 @@ function InfoCursa() {
           <FaListOl size={60} className='w-1/5 text-primary hover:text-primary/50'/>
           <div className="w-4/5 lg:p-5">
             <h3 className="text-center font-bold py-3 lg:text-start text-dark text-3xl pb-2">
-              Classificacions
+              <a href="https://www.sportsform.net/classificacions/2022/Colls2022/" target="_blank" rel="noopener noreferrer" className='hover:text-primary/75'>
+              Classificacions <small>VIII edició</small> 
+              </a>
             </h3>
-            <p className="text-dark font-medium text-lg">Desde aquest enllaç podeu accedir directament a <a target='_blank' className='text-primary' href="">consulta les classificacions</a> oficials de les últimes edicions. 
-            </p>
           </div>
         </div>
 
@@ -21,7 +21,7 @@ function InfoCursa() {
             <h3 className="text-center font-bold py-3 lg:text-start text-dark text-3xl pb-2">
               La Cursa
             </h3>
-            <p className="text-dark font-medium text-lg">L'entorn natural dels Colls Miralpeix entre Vilanova i la Geltrú i Sant Pere de Ribes amaga un recorregut d'onze quilòmetres i un desnivell de més de 200 metres que permet gaudir del trail running tant per experts com pels qui s'estan iniciant en aquest esport. La pujada del Castell de Miralpeix des de les proximitats de Can Girona es troba a la meitat del cricuit i ofereix un desnivell molt potent i dret, cosa que l'ha convertit en un dels símbols de la cursa. A banda, el recorregut presenta petites variacions respecte d'edicions anterior per fer-lo més entretingut als corredors i corredores.
+            <p className="text-dark font-medium text-lg">L'entorn natural dels Colls Miralpeix entre Vilanova i la Geltrú i Sant Pere de Ribes amaga un recorregut que permet gaudir del trail running tant per experts com pels qui s'estan iniciant en aquest esport. La pujada del Castell de Miralpeix des de les proximitats de Can Girona es troba a la meitat del cricuit i ofereix un desnivell molt potent i dret, cosa que l'ha convertit en un dels símbols de la cursa. A banda, el recorregut presenta petites variacions respecte d'edicions anterior per fer-lo més entretingut als corredors i corredores.
             </p>
           </div>
         </div>

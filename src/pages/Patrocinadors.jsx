@@ -18,129 +18,139 @@ import LogoCalserra from '../assets/logos/logo_calserra.jpeg'
 import LogoMiro from '../assets/logos/logo_mirografic.jpg'
 import LogoManantial from '../assets/logos/logo_manantial_salud.png'
 import LogoEspai from '../assets/logos/logo_espaicarme.jpg'
+import Title from '../components/Title'
 
 function Patrocinadors() {
   return (
     <section className="overflow-hidden py-20">
-        <h3 className='text-center text-4xl'>Organitzada per</h3>
-        <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+       <Title>
+        Organitzada per:
+       </Title>
+        <div className="container px-5 pt-2 pb-12 mx-auto lg:pt-12 lg:px-32">
             <div className="flex flex-wrap">
-                <div className="flex mx-auto w-1/2 md:w-1/4">
-                    <div className="w-full md:p-2">
+                <div className="flex mx-auto w-1/2 md:w-1/3">
+                    <div className="w-full">
                         <img alt="gallery" className="block object-contain w-full h-full shadow-md shadow-primary/75 p-10 md:p-2 rounded-lg"
                         src={LogoDeporunners} />
                     </div>
                 </div>
-                <div className="flex mx-auto w-1/2 md:w-1/4">
-                    <div className="w-full md:p-2">
+                <div className="flex mx-auto w-1/2 md:w-1/3">
+                    <div className="w-full">
                         <img alt="gallery" className="block object-contain w-full h-full shadow-md shadow-primary/75 p-10 rounded-lg"
                         src={LogoCursa} />
                     </div>
                 </div>
-                <h3 className='text-center text-4xl w-full py-12'>Gràcies per fer-ho possible</h3>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+            </div>
+        </div>
+
+        <Title>
+        Als nostres patrocinadors i col·laboradors, moltes gràcies:
+        </Title>
+        <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+            <div className="flex flex-wrap gap-y-4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoAjuntament}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoAmetller}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoEspai}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoEdel}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoTempsRec}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoInnova}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoAqua}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoFisio}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoBgrup}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoCota}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoRoca}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoMargallo}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoJr}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoSanmiguel}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoCalserra}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoMiro}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoPintallar}/>
                     </div>
                 </div>
-                <div className="flex flex-wrap w-1/2 md:w-1/4">
+                <div className="flex flex-wrap w-1/2 md:w-1/3">
                     <div className="w-full md:p-2">
                     <img alt="gallery" className="block object-contain object-center w-full h-full shadow-md shadow-primary/75 p-2 rounded-lg"
                         src={LogoManantial}/>

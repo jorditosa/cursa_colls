@@ -75,14 +75,14 @@ export default function Layout() {
  
   return (
     <>
-      <nav className="w-screen fixed bg-light z-10 py-1 lg:py-0 shadow-md shadow-secondary">
+      <nav className="w-screen fixed bg-light z-10 py-1 lg:py-0 shadow-lg shadow-light">
         <div className="w-full flex items-center justify-between px-5">
           <div className="hidden lg:block">{navList}</div>
           <Link 
           to='/'
           onClick={() => setOpenNav(!openNav)}
           >
-            <img className='w-[100px] rounded-md' src={logoCursa} alt="Logo Cursa" />
+            <img className='w-[90px] rounded-md' src={logoCursa} alt="Logo Cursa" />
           </Link>
           <button
             variant="text"
