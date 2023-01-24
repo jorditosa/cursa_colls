@@ -21,7 +21,7 @@ function recorreguts() {
           <a 
           href='https://es.wikiloc.com/rutas-carrera-por-montana/cursa-dels-colls-curta-2019-32486083' 
           target='_blank' 
-          className="block font-bold text-3xl text-curta underline text-center"
+          className="block font-bold text-3xl text-curta text-start my-5"
           >
             Track de la Curta
           </a>
@@ -41,7 +41,7 @@ function recorreguts() {
           <a 
           href='https://es.wikiloc.com/rutas-carrera-por-montana/track-cursa-llarga-colls-2019-32642443' 
           target='_blank'
-          className="block font-bold text-3xl text-llarga underline text-center"
+          className="block font-bold text-3xl text-llarga text-start my-5"
           >
             Track de la Llarga
           </a>

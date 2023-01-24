@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Form } from "react-router-dom"
 import Footer from "../components/Footer"
 import VoluntarisImg from '../assets/voluntaris.jpg'
 import VoluntarisImgStaff from '../assets/voluntaris_staff.jpg'

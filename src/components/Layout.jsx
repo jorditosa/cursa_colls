@@ -90,9 +90,9 @@ export default function Layout() {
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <CloseOutline size={70} />
+              <CloseOutline size={60} />
             ) : (
-              <MenuOutline size={70} />
+              <MenuOutline size={60} />
             )}
           </button>
         </div>

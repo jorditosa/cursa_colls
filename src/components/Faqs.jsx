@@ -14,7 +14,7 @@ export default function Faqs() {
 
   const customAnimation = {
     mount: { scale: 1 },
-    unmount: { scale: 0.9 },
+    unmount: { scale: 0.5 },
   };
  
   return (
@@ -37,12 +37,15 @@ export default function Faqs() {
       </Accordion>
       <Accordion open={open === 3} animate={customAnimation}>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          A quina hora és la recollida de Dorsals?
+          Com i quan recullo el dorsal?
         </AccordionHeader>
         <AccordionBody>
+          <p>
+            La recollida de dorsals és durà a terme de manera presencial, el dia abans i hores prèvies a la primera sortida. En concret els horaris seran:
+          </p>
           <ul>
-            <li>Dissabte 01, al Molí de Mar de 17:30h a 20h.</li>
-            <li>Diumenge 02, al Molí de Mar de 8h fins les 09h.</li>
+            <li><b>Dissabte 01</b>, al Molí de Mar de 17:30h a 20h.</li>
+            <li><b>Diumenge 02</b>, al Molí de Mar de 8h fins les 09h.</li>
           </ul>
         </AccordionBody>
       </Accordion>
