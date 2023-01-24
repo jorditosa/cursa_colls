@@ -8,6 +8,7 @@ import Voluntariat from './pages/Voluntariat'
 import Recorreguts from './pages/Recorreguts'
 import Reglament from './pages/Reglament'
 import InfoUtil from './pages/InfoUtil'
+import Fotos from './pages/Fotos'
 import PoliticaPriv from './pages/PoliticaPriv'
 
 const router = createBrowserRouter([
@@ -38,12 +39,20 @@ const router = createBrowserRouter([
       {
         path: '/politicapriv',
         element: <PoliticaPriv />
-      },  
+      },
+      {
+        path: '/Fotos',
+        element: <Fotos />
+      },
     ]
   },
   {
     path: '/politicapriv',
     element: <PoliticaPriv />
+  },  
+  {
+    path: '/Fotos',
+    element: <Fotos />
   },  
 ])
 
