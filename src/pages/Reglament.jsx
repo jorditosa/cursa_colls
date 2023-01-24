@@ -55,10 +55,10 @@ function Reglament() {
             &nbsp; 10. S'entregarà la bossa del corredor i el dorsal a tots els participants dins dels horaris indicats per fer-ne la recollida.
           </li>
           <li className="py-2">
-            &nbsp; 11. El preu de la inscripció a la Curta és de 12€, amb unes inscripcions que estaran obertes des de l'1 de febrer fins el 06 d'abril del 2023. Un cop realitzada la inscripció no es tornarà l’import de la mateixa si la no participació de l’atleta és per causes alienes a l’organització.
+            &nbsp; 11. El preu de la inscripció a la Curta és de 12€, amb unes inscripcions que estaran obertes des de l'1 de febrer fins el 30 de març del 2023. Un cop realitzada la inscripció no es tornarà l’import de la mateixa si la no participació de l’atleta és per causes alienes a l’organització.
           </li>
           <li className="py-2">
-            &nbsp; 12. El preu de la inscripció a la Llarga és de 15€, amb unes inscripcions que estaran obertes des de l'1 de febrer fins el 06 d'abril del 2023. Un cop realitzada la inscripció no es tornarà l’import de la mateixa si la no participació de l’atleta és per causes alienes a l’organització.
+            &nbsp; 12. El preu de la inscripció a la Llarga és de 15€, amb unes inscripcions que estaran obertes des de l'1 de febrer fins el 30de març del 2023. Un cop realitzada la inscripció no es tornarà l’import de la mateixa si la no participació de l’atleta és per causes alienes a l’organització.
           </li>
           <li className="py-2">
             &nbsp; 13. Les
@@ -77,8 +77,8 @@ function Reglament() {
           </li>
           <li className="py-2">
             &nbsp; 16. El dorsal i la bossa del corredor es podran recollir a
-            partir del <b>dissabte 9 d’abril de 17h a 20h al Molí de Mar de Vilanova i la Geltrú</b>,
-            i el mateix diumenge 10 d’abril fins 15’ abans de l’hora de la primera sortida. Us
+            partir del <b>dissabte 1 d’abril de 17h a 20h al Molí de Mar de Vilanova i la Geltrú</b>,
+            i el mateix diumenge 02 d’abril fins 15’ abans de l’hora de la primera sortida. Us
             recomanem recollir el dorsal dissabte i així evitar cues el dia de la
             cursa.
           </li>

@@ -19,39 +19,39 @@ export default function Layout() {
   }, []);
  
   const navList = (
-    <ul className="w-screen h-full lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-4 font-Poppins">
+    <ul className="w-screen h-full lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-y-4 font-Poppins">
         <Link 
-        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        className='text-lg lg:text-md font-bold block py-5 text-primary hover:text-secondary' 
         to='/'
         onClick={() => setOpenNav(false)}
         >Inici
         </Link>
         <Link 
-        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        className='text-lg lg:text-md font-bold block py-5 text-primary hover:text-secondary' 
         to='/voluntariat'
         onClick={() => setOpenNav(false)}
         >Voluntaris
         </Link>
         <Link 
-        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        className='text-lg lg:text-md font-bold block py-5 text-primary hover:text-secondary' 
         to='/recorreguts'
         onClick={() => setOpenNav(false)}
         >Recorreguts
         </Link>
         <Link 
-        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        className='text-lg lg:text-md font-bold block py-5 text-primary hover:text-secondary' 
         to='/reglament'
         onClick={() => setOpenNav(false)}
         >Reglament
         </Link>
         <Link 
-        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        className='text-lg lg:text-md font-bold block py-5 text-primary hover:text-secondary' 
         to='/infoutil'
         onClick={() => setOpenNav(false)}
         >Info Útil
         </Link>
         <a 
-        className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
+        className='text-lg lg:text-md font-bold block py-5 text-primary hover:text-secondary' 
         target='_blank' 
         href='https://www.sportsform.net/cursacolls/2022/'
         onClick={() => setOpenNav(false)}
