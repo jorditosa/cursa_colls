@@ -1,5 +1,6 @@
 import Footer from "../components/Footer"
 import Title from "../components/Title"
+import autoritzacio from "../assets/Autoritzacio_menors_colls.pdf";
 
 function Reglament() {
   return (
@@ -16,7 +17,7 @@ function Reglament() {
             participar-hi. El mínim d’edat per participar a la prova Curta és de 14 anys, i per la Llarga 16 anys.
             Els menors de 18 anys hauran de portar signada <b>l’autorització del
               pare, mare i/o tutor legal, per mostrar-la el dia des la recollida del
-              dorsal, que podreu descarregar en aquest enllaç <a href="src/img/Autoritzacio_menors_colls.pdf" download>"autorització menors".</a></b>
+              dorsal, que podreu descarregar en aquest enllaç <a className="text-primary underline" href={autoritzacio} download>autorització menors.</a></b>
           </li>
           <li className="py-2">
             &nbsp; 2. La cursa es disputarà el <b className="text-lg md:text-2xl">diumenge dia 02 d’abril de 2023.</b>
@@ -40,7 +41,7 @@ function Reglament() {
           <li className="py-2">
             &nbsp; 8. Es disposa d’un temps total per realitzar el circuit de la
             Llarga, d’unes 2h 15'. Hi haurà punt de tall al km 4,5 després 45 minuts
-            des de l’inici de cadascuna de cada cursa. Passat aquets temps, tot corredor/a que
+            des de l’inici de cadascuna de cada cursa. Passat aquest temps, tot corredor/a que
             arribi més tard, se li serà retirat el dorsal al punt de tall i
             quedarà sota la seva responsabilitat tota acció que pogués esdevenir.
           </li>
@@ -83,7 +84,7 @@ function Reglament() {
           </li>
           <li className="py-2">
             &nbsp; 17. El lliurement de premis es farà sobre les 11.30h.
-            Es lliuraran trofeus als tres primers i primeres classNameificades per la categoria absoluta, i el lliurament d'un obsequi pels tres primers/es de cada categoria. Las categories son: júnior (nascuts entre el 2003-2009), sènior
+            Es lliuraran trofeus als tres primers i primeres classificades per la categoria absoluta, i el lliurament d'un obsequi pels tres primers/es de cada categoria. Las categories son: júnior (nascuts entre el 2003-2009), sènior
             (nascuts entre el 1984-2002), màster 40 (nascuts entre el 1974-1983),
             màster 50 (nascuts entre el 1964-1973), màster 60 (nascuts el 1963 o anterior) i local, i als primers segons i
             tercers de la general, masculí i femení. Els premis no son acumulatius.

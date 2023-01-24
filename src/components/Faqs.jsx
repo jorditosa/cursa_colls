@@ -54,7 +54,7 @@ export default function Faqs() {
           Hi ha servei de dutxes?
         </AccordionHeader>
         <AccordionBody>
-          Les dutxes quedaran habilitades al complex esportiu Aqua Sports club, a uns 10min a peu desde la sortida habilitada per la cursa.
+          Les dutxes quedaran habilitades al complex esportiu Aqua Sports club, a uns 10min a peu des de la sortida habilitada per la cursa.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 5} animate={customAnimation}>
@@ -62,7 +62,7 @@ export default function Faqs() {
           Tindré jalar al acabar?
         </AccordionHeader>
         <AccordionBody>
-          La botifarra, la cervesa o la opció veggie son indispensables i ho tindràs al acabar la cursa. Arribat el dia que no poguem oferir-ho, cancel·larem la cursa!
+          La botifarra, la cervesa o la opció veggie son indispensables i ho tindràs al acabar la cursa. Arribat el dia que no puguem oferir-ho, cancel·larem la cursa!
         </AccordionBody>
       </Accordion>
     </Fragment>

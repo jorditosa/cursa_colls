@@ -21,7 +21,7 @@ function InfoCursa() {
             <h3 className="text-center font-bold py-3 lg:text-start text-dark text-3xl pb-2">
               La Cursa
             </h3>
-            <p className="text-dark font-medium text-lg">L'entorn natural dels Colls Miralpeix entre Vilanova i la Geltrú i Sant Pere de Ribes amaga un recorregut que permet gaudir del trail running tant per experts com pels qui s'estan iniciant en aquest esport. La pujada del Castell de Miralpeix des de les proximitats de Can Girona es troba a la meitat del cricuit i ofereix un desnivell molt potent i dret, cosa que l'ha convertit en un dels símbols de la cursa. A banda, el recorregut presenta petites variacions respecte d'edicions anterior per fer-lo més entretingut als corredors i corredores.
+            <p className="text-dark font-medium text-lg">L'entorn natural dels Colls Miralpeix entre Vilanova i la Geltrú i Sant Pere de Ribes amaga un recorregut que permet gaudir del trail running tant per experts com pels qui s'estan iniciant en aquest esport. La pujada del Castell de Miralpeix des de les proximitats de Can Girona es troba a la meitat del circuit i ofereix un desnivell molt potent i dret, cosa que l'ha convertit en un dels símbols de la cursa. A banda, el recorregut presenta petites variacions respecte d'edicions anterior per fer-lo més entretingut als corredors i corredores.
             </p>
           </div>
         </div>
@@ -30,10 +30,10 @@ function InfoCursa() {
           <FaPhotoVideo size={60} className='w-1/5 text-primary hover:text-primary/50'/>
           <div className="w-4/5 lg:p-5">
             <h3 className="text-center font-bold py-3 lg:text-start text-dark text-3xl pb-2">
-              Fotogaleria
+              Fotografies
             </h3>
-            <p className="text-dark font-medium text-lg">No pot faltar la secció que tot bon trail runner necessita tenir, i son totes les fotos on segurament surtiu estupendos/as i amb cara de anar super bé!.. 
-            Durant el recorregut trobareu fotogràfs que inmortalitzaran el vostre moment de patiment/gaudiment. A la setmana següent a la competició us deixem la galeria d'imatges penjades ;).
+            <p className="text-dark font-medium text-lg">No pot faltar la secció que tot bon trail runner necessita tenir, i son totes les fotos on segurament sortiu estupends/as i amb cara de anar super bé!.. 
+            Durant el recorregut trobareu fotografs que immortalitzaran el vostre moment de patiment/gaudiment. A la setmana següent a la competició us deixem la galeria d'imatges penjades ;).
             </p>
           </div>
         </div>
