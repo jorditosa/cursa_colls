@@ -19,7 +19,7 @@ export default function Layout() {
   }, []);
  
   const navList = (
-    <ul className="w-screen h-full lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-4">
+    <ul className="w-screen h-full lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-4 font-Poppins">
         <Link 
         className='text-2xl lg:text-lg font-bold block py-5 text-primary hover:text-secondary' 
         to='/'
@@ -75,7 +75,7 @@ export default function Layout() {
  
   return (
     <>
-      <nav className="w-screen fixed bg-light z-10 py-1 lg:py-0 shadow-lg shadow-light">
+      <nav className="w-screen fixed bg-light z-10 py-1 lg:py-0 shadow-lg shadow-primary">
         <div className="w-full flex items-center justify-between px-5">
           <div className="hidden lg:block">{navList}</div>
           <Link 

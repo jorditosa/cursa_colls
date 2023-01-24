@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import  LogoCursa  from '../assets/logo-bgwhite.png'
 import { Link } from 'react-router-dom'
 
+
 function Inici() {
 
   return (

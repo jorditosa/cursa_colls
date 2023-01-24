@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import logoCursa from '../assets/logos/logo_cursa.png'
+import LogoDeporunners from '../assets/logos/L_deporunners.png'
 import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa'
 
 function Footer() {
@@ -19,14 +20,19 @@ function Footer() {
                             <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-light rounded-lg cursor-pointer bg-primary border-2 border-secondary sm:rounded-none sm:rounded-r-lg hover:bg-primary-800">Enviar</button>
                         </div>
                     </div>
-                    <div className="mx-auto w-full lg:w-1/2 text-xs md:text-md text-left newsletter-form-footer">Tenim present la protecció i seguretat de les dades, i no en fem més ús que el simple enviament d'informaciño relacionada amb la Cursa dels Cols i el club Esportiu Deporunners, organitzadors de tal esdeveniment. <Link to="/politicapriv" className="font-medium text-primary-600 dark:text-primary-500 hover:underline">Llegeix la Política de Privacitat (ESP)</Link>.</div>
+                    <div className="mx-auto w-full lg:w-1/2 text-xs md:text-md text-left newsletter-form-footer">Tenim present la protecció i seguretat de les dades, i no en fem més ús que el simple enviament d'informació relacionada amb la Cursa dels Cols i el club Esportiu Deporunners, organitzadors de tal esdeveniment. <Link to="/politicapriv" className="font-medium text-primary-600 dark:text-primary-500 hover:underline">Llegeix la Política de Privacitat (ESP)</Link>.</div>
                 </form>
             </div>
         </div>
       </section>
 
       <div className='w-full lg:w-[1000px] mx-auto flex flex-col items-center lg:items-end justify-between gap-5 lg:flex-row'>
+        <div className='flex flex-col items-center lg:flex-row flex-1 gap-5'>
             <img className='w-[100px] rounded-md' src={logoCursa} alt="logo Cursa" />
+            <a href="https://deporunners.cat/">
+              <img className='bg-light w-[200px] rounded-md cursor-pointer' src={LogoDeporunners} alt="logo Deporunners" />
+            </a>
+        </div>
             <p>
             Segueix-nos a les nostres xarxes socials
             </p>
