@@ -50,7 +50,7 @@ function Voluntariat() {
         {error && <Error>Tots els camps són obligatoris</Error>}
         <form 
         method="POST"
-        action="https://getform.io/f/8912888a-c33d-448c-8ab1-5ccc3c669793"
+        action="https://getform.io/f/d877dc2c-a761-43aa-b305-5fc9341f84a1"
         className="flex flex-col w-full lg:w-1/2 mx-auto px-3 py-10"
         onSubmit={handleSubmit}
         >
