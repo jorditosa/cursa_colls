@@ -7,7 +7,7 @@ function InfoCursa() {
         <div className="bg-light h-full py-10 shadow-lg shadow-primary/50 rounded-t-lg flex flex-col lg:flex-row items-center justify-center">
           <FaListOl size={60} className='w-1/5 text-primary hover:text-primary/50'/>
           <div className="w-4/5 lg:p-5">
-            <h3 className="text-center font-black py-3 lg:text-start text-dark text-3xl pb-2">
+            <h3 className="text-center font-bold py-3 lg:text-start text-dark text-2xl pb-2">
               <a href="https://www.sportsform.net/classificacions/2022/Colls2022/" target="_blank" rel="noopener noreferrer" className='hover:text-primary/75'>
               Classificacions <small>VIII edició</small> 
               </a>
@@ -18,10 +18,10 @@ function InfoCursa() {
         <div className="bg-light h-full py-10 shadow-lg shadow-primary/50 flex flex-col lg:flex-row items-center justify-center">
           <FaRunning size={60} className='w-1/5 text-primary hover:text-primary/50'/>
           <div className="w-4/5 lg:p-5">
-            <h3 className="text-center font-black py-3 lg:text-start text-dark text-3xl pb-2">
+            <h3 className="text-center font-bold py-3 lg:text-start text-dark text-2xl pb-2">
             La Cursa
             </h3>
-            <p className="text-dark font-medium text-lg">L'entorn natural dels Colls Miralpeix entre Vilanova i la Geltrú i Sant Pere de Ribes amaga un recorregut que permet gaudir del trail running tant per experts com pels qui s'estan iniciant en aquest esport. La pujada del Castell de Miralpeix des de les proximitats de Can Girona es troba a la meitat del circuit i ofereix un desnivell molt potent i dret, cosa que l'ha convertit en un dels símbols de la cursa. A banda, el recorregut presenta petites variacions respecte d'edicions anterior per fer-lo més entretingut als corredors i corredores.
+            <p className="text-dark font-medium text-lg">L'entorn natural dels Colls Miralpeix entre Vilanova i la Geltrú i Sant Pere de Ribes amaga un recorregut que permet gaudir del trail running tant per experts com pels qui us esteu iniciant en aquest esport. La pujada del Castell de Miralpeix des de les proximitats de Can Girona es troba a la meitat del circuit i ofereix un desnivell molt potent i dret, cosa que l'ha convertit en un dels símbols de la cursa. A banda, el recorregut presenta petites variacions respecte d'edicions anteriors per fer-lo més entretingut aper a tots vosaltres.
             </p>
           </div>
         </div>
@@ -29,11 +29,11 @@ function InfoCursa() {
         <div className="bg-light h-full py-10 shadow-lg shadow-primary/50 flex flex-col lg:flex-row items-center justify-center">
           <FaPhotoVideo size={60} className='w-1/5 text-primary hover:text-primary/50'/>
           <div className="w-4/5 lg:p-5">
-            <h3 className="text-center font-black py-3 lg:text-start text-dark text-3xl pb-2">
+            <h3 className="text-center font-bold py-3 lg:text-start text-dark text-2xl pb-2">
               Fotografies
             </h3>
-            <p className="text-dark font-medium text-lg">No pot faltar la secció que tot bon trail runner necessita tenir, i son totes les fotos on segurament sortiu estupends/as i amb cara de anar super bé!.. 
-            Durant el recorregut trobareu fotografs que immortalitzaran el vostre moment de patiment/gaudiment. A la setmana següent a la competició us deixem la galeria d'imatges penjades ;).
+            <p className="text-dark font-medium text-lg">Per tal que us pugueu endur un bon record de la vostra participació a la cursa dels colls, al llarg
+            del recorregut trobareu fotògrafs que immortalitzaran el vostre pas per les zones més emblemàtiques dels Colls-Miralpeix. Durant la setmana posterior a la competició les anirem penjant a la galeria d’imatges per tal que us les pugueu descarregar.
             </p>
           </div>
         </div>
@@ -41,10 +41,10 @@ function InfoCursa() {
         <div className="bg-light h-full py-10 shadow-lg shadow-primary/50 flex flex-col lg:flex-row items-center justify-center rounded-b-lg">
           <FaMedal size={60} className='w-1/5 text-primary hover:text-primary/50'/>
           <div className="w-4/5 lg:p-5">
-            <h3 className="text-center font-black py-3 lg:text-start text-dark text-3xl pb-2">
+            <h3 className="text-center font-bold py-3 lg:text-start text-dark text-2xl pb-2">
               Patrocinadors/es
             </h3>
-            <p className="text-dark font-medium text-lg">I especial menció als nostres patrocinadors i col·laboradors, sense ells no podrieu gaudir d'una autèntica Cursa en un paratge natural com els dels Colls Miralpeix. És molt important la seva ajuda, i volem admirar el seu suport i fer-lo visible, perque són els millors serveis i productes que trobareu per la nostre zona! ;)
+            <p className="text-dark font-medium text-lg">Volem fer una menció especial a les empreses patrocinadores i col·laboradores. Sense elles no podríeu gaudir d’aquesta cursa tan autèntica en un paratge natural com el dels Colls Miralpeix. La seva ajuda es imprescindible i volem fer visible el seu suport i recomanar-vos els seus productes i serveis ja que son els millors que trobareu per la nostra zona.
             </p>
           </div>
         </div>

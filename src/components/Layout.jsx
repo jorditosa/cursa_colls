@@ -19,7 +19,7 @@ export default function Layout() {
   }, []);
  
   const navList = (
-    <ul className="w-screen h-full lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-y-4 font-Poppins">
+    <ul className="w-screen h-full lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-y-4 font-Poppins uppercase">
         <Link 
         className='text-lg lg:text-sm font-bold block py-5 text-primary hover:text-secondary' 
         to='/'

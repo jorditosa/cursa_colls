@@ -36,10 +36,12 @@ function Voluntariat() {
           Com sempre, sense la familia de voluntaris, organitzar un esdeveniment així seria impossible fer-ho una realitat. Avui ajudem aqui per demà anar a córrer allà :).
           </p>
           <p>
-          Tothom qe ha vingut a donar-nos un cop de mà alguna vegada ha sortit ben content, ja sigui aportant el seu granet de sorra a la zona del Molí de Mar, pel recorregut, avituallaments, guarda-roba, bbq o a la barra mateix. Tot i que el recorregut el marquem a consciència, sempre necessitem ajuda per tenir controlats els punts conflictius i poder gaudir entre tots/es d'una competició perfecte.
+          Sense cap mena de dubte, l’ajuda dels voluntaris que any rere any han col·laborat en el desenvolupament de les vuit edicions anteriors ens ha fet arribar fins on som ara. Organitzar una cursa d’aquestes característiques es complexa i sempre hi ha tasques imprescindibles pel bon funcionament d’aquesta: marcatge dels recorreguts, muntatge i desmuntatge al Molí de Mar, guarda roba, avituallaments, bbq i un llarg etcètera.
           </p>
           <p className="py-2">
-          És per això, que us volem animar a ajudar-nos amb la vostre col·laboració, ho diem honestament que ens ho passem igual de bé organitzant que corrent! i a més a més...us paguem un bon esmorzar amb beguda inclosa! i us donarme un petit obsequi.
+          És per això que us volem animar a participar com a voluntaris, ja que gaudireu d’un molt bon
+          ambient, podreu assaborir un bon esmorzar (amb beguda inclosa) i rebreu un petit obsequi
+          com a agraïment.
           </p>
         </div>
 
@@ -59,7 +61,7 @@ function Voluntariat() {
           name="name" 
           placeholder="El teu nom"
           value={nombre}
-          className="p-2 my-5 bg-transparent border-4 border-secondary rounded-md focus:outline-none" 
+          className="p-2 my-5 bg-transparent shadow-lg shadow-secondary rounded-md focus:outline-none" 
           onChange={(e) => setNombre(e.target.value)}
           />
           <input 
@@ -67,7 +69,7 @@ function Voluntariat() {
           name="email" 
           placeholder="El teu email"
           value={email}
-          className="p-2 my-5 bg-transparent border-4 border-secondary rounded-md focus:outline-none"
+          className="p-2 my-5 bg-transparent shadow-lg shadow-secondary rounded-md focus:outline-none"
           onChange={(e) => setEmail(e.target.value)}
           />
           <input 
@@ -75,14 +77,14 @@ function Voluntariat() {
           name="phone" 
           placeholder="El teu telèfon de contacte"
           value={telefono}
-          className="p-2 my-5 bg-transparent border-4 border-secondary rounded-md focus:outline-none" 
+          className="p-2 my-5 bg-transparent shadow-lg shadow-secondary rounded-md focus:outline-none" 
           onChange={(e) => setTelefono(e.target.value)}
           />
           <input name="_gotcha" className="hidden"/>
           
           <button 
           type="submit"
-          className="my-5 bg-primary border-2 border-secondary text-light text-xl first-letter: block px-8 py-3 w-full font-semibold rounded-md"
+          className="my-5 bg-primary shadow-md shadow-secondary hover:bg-secondary/75 text-light text-xl block px-8 py-3 w-full font-semibold rounded-md"
           >
             M'apunto!
           </button>

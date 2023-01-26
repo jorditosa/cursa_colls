@@ -28,15 +28,14 @@ function Reglament() {
           <li className="py-2">
             &nbsp; 4. La prova tindrà horari de tancament especificats per a cada cursa en els següents punts.</li>
           <li className="py-2">
-            &nbsp; 5. Les distàncies oficials son de 8,5 km per la Curta i uns 15km
-            la Llarga.
+            &nbsp; 5. Les distàncies oficials son de 8,5 km per la Curta i uns 15km la Llarga.
           </li>
           <li className="py-2">
-            &nbsp; 6. L’hora de la sortida de<b className="text-lg md:text-2xl"> la LLARGA és a les 9:15h des del Far de Vilanova i la Geltrú.</b>
+            &nbsp; 6. L’hora de la sortida de<b className="text-lg md:text-2xl"> la LLARGA és a les 9:15h des de la platja del Far de Vilanova i la Geltrú.</b>
           </li>
           <li className="py-2">
             &nbsp; 7. L’hora de la sortida de
-            <b className="text-lg md:text-2xl"> la CURTA és a les 10h des del Far de Vilanova i la Geltrú.</b>
+            <b className="text-lg md:text-2xl"> la CURTA és a les 10h des de la platja del Far de Vilanova i la Geltrú.</b>
           </li>
           <li className="py-2">
             &nbsp; 8. Es disposa d’un temps total per realitzar el circuit de la
@@ -63,8 +62,7 @@ function Reglament() {
           <li className="py-2">
             &nbsp; 13. Les
             <b>inscripcions es podran fer a partir de l'1 de febrer</b> a través
-            del nostre web, www.cursadelscolls.cat , o presencials als establiments
-            col·laboradors.
+            de la nostre pàgina web www.cursadelscolls.cat.
           </li>
           <li className="py-2">
             &nbsp; 14. El corredor/a es considera finisher si realitza el

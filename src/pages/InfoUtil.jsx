@@ -2,6 +2,12 @@ import Faqs from "../components/Faqs";
 import Footer from "../components/Footer";
 import Title from "../components/Title";
 import heroFaqs from '../assets/sortida.jpg'
+import styled from "styled-components";
+
+// styled comp
+const HeroFaqs = styled.img`
+  width: 100%;
+`
 
 function InfoUtil() {
   return (
@@ -13,7 +19,7 @@ function InfoUtil() {
         <div className="md:max-w-[1000px] mx-auto font-Poppins p-3 mb-10 text-lg border-b-primary">
           <Faqs />
         </div>
-        <img src={heroFaqs} alt="foto corredors" />
+        <HeroFaqs src={heroFaqs} alt="foto corredors" />
       </section>
 
       <Footer />
