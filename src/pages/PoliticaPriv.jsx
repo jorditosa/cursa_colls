@@ -1,7 +1,17 @@
+import { useEffect } from 'react'
 import Title from "../components/Title";
 import Footer from "../components/Footer";
 
 function PoliticaPriv() {
+
+  useEffect(() => {
+    // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, ['/politicapriv']);
+
   return (
     <>
     <main className="pt-20 py-2 md:pt-24 font-Poppins">

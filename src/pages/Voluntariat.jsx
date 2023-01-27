@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState , useEffect } from "react"
 import Footer from "../components/Footer"
 import VoluntarisImg from '../assets/voluntaris.jpg'
 import VoluntarisImgStaff from '../assets/voluntaris_staff.jpg'
@@ -23,6 +23,14 @@ function Voluntariat() {
     }
     setError(false)
   }
+
+  useEffect(() => {
+    // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, ['/voluntariat']);
 
   return (
     <>

@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Faqs from "../components/Faqs";
 import Footer from "../components/Footer";
 import Title from "../components/Title";
@@ -10,6 +11,15 @@ const HeroFaqs = styled.img`
 `
 
 function InfoUtil() {
+
+  useEffect(() => {
+    // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, ['/infoutil']);
+
   return (
     <>
       <section className='w-full pt-20 md:pt-24'>

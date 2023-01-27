@@ -1,8 +1,18 @@
+import { useEffect } from 'react'
 import Footer from "../components/Footer"
 import Title from "../components/Title"
 import autoritzacio from "../assets/Autoritzacio_menors_colls.pdf";
 
 function Reglament() {
+
+  useEffect(() => {
+    // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, ['/reglament']);
+
   return (
 
     <>

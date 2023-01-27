@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Footer from "../components/Footer"
 import Title from "../components/Title"
 import AltCurta from "../assets/curta8k.jpeg"
@@ -5,6 +6,15 @@ import AltLlarga from "../assets/llarga15k.jpg"
 
 
 function recorreguts() {
+
+  useEffect(() => {
+    // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, ['/recorregut']);
+
   return (
     <>
       <section className="font-Poppins pt-20 md:pt-24">
